@@ -10,6 +10,7 @@ You can access these APIs through three primary methods: the AWS Management Cons
 4. You will see the ngix page (as setup)
 
 # Working Diagram
+```mermaid
 graph TD
     %% AWS Console EC2 Creation Path
     A[AWS Management Console] -->|Search 'EC2'| B[EC2 Dashboard]
@@ -36,3 +37,4 @@ graph TD
 		end
 
     J -->|Click 'Launch instance'| K((EC2 Active))
+```
