@@ -1,3 +1,15 @@
+# AWS Elastic Computer Cloud (EC2)
+All interactions with services are powered by APIs. 
+
+You can access these APIs through three primary methods: the AWS Management Console, the AWS CLI, or the AWS SDK. Let's review these methods.
+
+# Usage of the instance
+1. After the instance creation
+2. Look for Public IP (Public IPv4 address): e.g. 18.206.176.107
+3. on browser search http://18.206.176.107
+4. You will see the ngix page (as setup)
+
+# Working Diagram
 graph TD
     %% AWS Console EC2 Creation Path
     A[AWS Management Console] -->|Search 'EC2'| B[EC2 Dashboard]
